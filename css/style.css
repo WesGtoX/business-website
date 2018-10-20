@@ -1,0 +1,98 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,700italic,300,400,700);
+
+/* GENERAL */
+* {
+	margin: 0;
+	padding: 0;
+}
+
+h2 {
+	font-family: 'Open Sans';
+	text-align: center;
+	margin-bottom: 20px;
+}
+
+h2:after {
+	content: "";
+	display: block;
+	margin: 0 auto;
+	padding-top: 10px;
+	border-bottom: 4px solid #0cd98a;
+	width: 90px;
+}
+
+.section {
+	margin: 40px 0 40px;
+}
+
+/* MAIN MENU */
+.main-menu {
+	position: fixed;
+	top: 0;
+	z-index: 10;
+	background: #fff;
+	width: 100%;
+}
+
+ul.main-nav {
+	list-style: none;
+	margin: 0;
+}
+
+.main-nav {
+	display: flex;
+}
+
+.main-nav li:first-child {
+	margin-right: auto;
+}
+
+.main-nav li {
+	margin-left: 36px;
+	padding: 30px 0 30px;
+}
+
+.main-nav a {
+	color: #000;
+	text-decoration: none;
+	font-size: 14px;
+	font-family: "Open Sans";
+	font-weight: 700;
+	text-transform: uppercase;
+}
+
+.main-nav a:active, .main-nav a:hover {
+	color: #0cd98a;
+}
+
+/* HERO SECTION */
+#home {
+	background: url(../img/hero-image.jpg) no-repeat fixed center;
+	background-size: cover;
+	height: 100vh;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+#home .wrapper-text h1 {
+	background: rgba(0,0,0, 0.8);
+	color: #fff;
+	padding: 10px 20px 10px;
+	border-radius: 5px;
+}
+
+/* 3 COLUMN LAYOUT */
+.flex-grid {
+	display: flex;
+}
+
+.flex-grid .col {
+	text-align: center;
+	margin-top: 40px;
+	margin-bottom: 40px;
+}
+
+.flex-grid .col i {
+	margin-bottom: 20px;
+}
