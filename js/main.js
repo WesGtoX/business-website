@@ -1,6 +1,7 @@
 jQuery(document).ready(function() {
 	smoothScroll();
 	onScroll();
+	mobileMenu();
 });
 
 function smoothScroll() {
@@ -33,4 +34,16 @@ function onScroll() {
 			}
 		})
 	});
+}
+
+function mobileMenu() {
+	jQuery('.menu-icon').on('click', function() {
+		jQuery('.menu-icon').toggleClass('change');
+		jQuery('.mobile-nav').toggleClass('active');
+	});
+
+	jQuery('ul.mobile-nav li a').on('click', function() {
+		jQuery('.menu-icon').removeClass('change');
+		jQuery('.mobile-nav').removeClass('active');
+	})
 }
