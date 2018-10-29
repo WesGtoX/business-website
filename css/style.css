@@ -26,9 +26,9 @@ p {
 	font-family: 'Open Sans';
 }
 
-.section {
+/* .section {
 	margin: 40px 0 40px;
-}
+} */
 
 /* MAIN MENU */
 .main-menu {
@@ -167,6 +167,7 @@ ul.main-nav {
 #home {
 	background: url(../img/hero-image.jpg) no-repeat fixed center;
 	background-size: cover;
+	padding: 40px 0 40px;
 	height: 100vh;
 	display: flex;
 	align-items: center;
@@ -180,7 +181,10 @@ ul.main-nav {
 	border-radius: 5px;
 }
 
-/* 3 COLUMN LAYOUT */
+/* SERVICES 3 COLUMN LAYOUT */
+#services {
+	padding: 40px 0 40px;
+}
 .flex-grid {
 	display: flex;
 }
@@ -199,6 +203,7 @@ ul.main-nav {
 #about {
 	background: url(../img/about-us.jpeg) no-repeat fixed center;
 	background-size: cover;
+	padding: 40px 0 40px;
 	height: 100vh;
 	display: flex;
 	align-items: center;
@@ -206,11 +211,14 @@ ul.main-nav {
 }
 
 #about .about-us-text {
-	width: 500px;
-	text-align: center;
+	width: 80%;
+	text-align: justify;
 }
 
 /* TESTIMONIALS */
+#testimonials {
+	padding: 40px 0 40px;
+}
 .testimonials-wrapper {
 	width: 600px;
 	margin: 0 auto;
@@ -250,7 +258,7 @@ p.name {
 
 /* EVENTS */
 #events {
-	padding: 60px 0 60px;
+	padding: 40px 0 40px;
 	background: #0d98ba;
 	color: #fff
 }
@@ -260,6 +268,9 @@ p.name {
 }
 
 /* CONTACT */
+#contact {
+	padding: 40px 0 40px;
+}
 #contact form input {
 	border-radius: 0;
 }
