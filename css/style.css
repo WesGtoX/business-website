@@ -26,10 +26,6 @@ p {
 	font-family: 'Open Sans';
 }
 
-/* .section {
-	margin: 40px 0 40px;
-} */
-
 /* MAIN MENU */
 .main-menu {
 	position: fixed;
@@ -204,7 +200,7 @@ ul.main-nav {
 	background: url(../img/about-us.jpeg) no-repeat fixed center;
 	background-size: cover;
 	padding: 40px 0 40px;
-	height: 100vh;
+	/* height: 100vh; */
 	display: flex;
 	align-items: center;
 	justify-content: center;
